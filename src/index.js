@@ -87,3 +87,4 @@ server.tool(
 const transport = new StdioServerTransport();
 await server.connect(transport);
 // v1.0.1 - trigger publish
+// v1.0.2

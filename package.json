@@ -1,0 +1,20 @@
+{
+  "name": "koreafood-mcp",
+  "version": "1.0.0",
+  "description": "Danaham K-Food export assistant MCP server: catalog search, bilingual buyer email generation (EN/KR), export task tracking.",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "koreafood-mcp": "src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": ["mcp", "k-food", "korean-food", "korea-food", "kfood", "danaham", "export", "model-context-protocol"],
+  "author": "Max Jung (TradeOn Co., Ltd.)",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.23.0"
+  }
+}
